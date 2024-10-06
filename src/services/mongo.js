@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-const MONGO_URL = process.env.MONGO_URL || 'mongodb+srv://carefinder-api:9gzS1lfzfYS3rTpT@carefindercluster.zwhhgad.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = process.env.MONGO_URL || 'mongodb+srv://babzchizzy27:G5CzW1GEtmb4gct6@nasabecluster.knl4s.mongodb.net/?retryWrites=true&w=majority&appName=NasaBEcluster';
 mongoose.connection.once('open', () => {
   console.log('MongoDB connection ready!');
 });

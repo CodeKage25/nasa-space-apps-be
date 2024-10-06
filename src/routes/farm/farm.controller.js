@@ -82,7 +82,6 @@ const generateSoilAssessment = (plantType, nasaData) => {
     const conditions = {
       corn: { precipitation: 50, minTemp: 15, maxTemp: 30 },
       wheat: { precipitation: 40, minTemp: 10, maxTemp: 25 },
-      // Add other plants and their optimal conditions
     };
   
     return conditions[plantType] || { precipitation: 45, minTemp: 12, maxTemp: 28 };  // Default
